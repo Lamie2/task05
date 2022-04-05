@@ -37,6 +37,8 @@ namespace Task05
 
             Product product = new Product();
             Store store = new Store();
+            store.NotebookLimit = 2;
+            store.PhoneLimit = 2;
 
             store = notebook;
             
